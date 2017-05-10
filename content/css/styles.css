@@ -1,0 +1,84 @@
+
+/* base */
+html, 
+body {
+	margin: 0px;
+}
+
+
+
+/* fonts*/
+.font-proxima {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.font-helvetica {
+	font-family: 'Roboto', sans-serif;
+}
+
+.font-helveticaBold {
+	font-family: 'Roboto', sans-serif;	
+	font-weight: bold;
+}
+
+.font-georgia {
+	font-family: 'Playfair Display', sans-serif;
+}
+
+.font-size-large {
+	font-size: 3.2em;
+}
+
+
+
+/*
+	clothes component styles
+*/
+
+.c-clothes__copy {
+	text-align: center;
+	font-size: 13px;
+}
+
+/* stats */
+.c-clothes__stats {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.c-clothes__stats__item {
+	width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.c-clothes__stats__item__name {
+	font-size: 1.3em;
+	margin-top: -7px;
+}
+
+.c-clothes__stats--hr{
+    position: relative;
+    border-bottom: 1px solid #000;
+    width: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    height: 25px;
+}
+
+
+
+/* ___ responsive ___ */
+@media screen and (max-width: 480px) {
+	.c-clothes__stats {
+		font-size: 10px;
+		width: 90%;
+	}
+	.c-clothes__stats__item__name {
+		margin-top: -5px;
+	}
+}
